@@ -1,0 +1,9 @@
+---
+- name: Test Playbook
+  hosts: all
+  connection: local
+  tasks:
+  - name: Show Version
+    ios_command:
+     commands:
+     - show version
