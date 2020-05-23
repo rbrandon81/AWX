@@ -1,7 +1,6 @@
-- hosts: core_router
-  connection: network_cli
-  tasks:
-   - name: Show Version
+
+tasks:
+ - name: Show Version
      vyos_command:
-      commands:
-       - show version
+       commands:
+         - show version
