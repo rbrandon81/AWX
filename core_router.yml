@@ -1,4 +1,4 @@
-
+---
 tasks:
  - name: Show Version
      vyos_command:
