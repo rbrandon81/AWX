@@ -1,6 +1,8 @@
 ---
-tasks:
- - name: Show Version
-     vyos_command:
+- name: Show Version
+  hosts: all
+  tasks:
+   - name: Sh Ver
+     ios_command:
        commands:
-         - show version
+        - show version
